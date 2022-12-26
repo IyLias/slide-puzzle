@@ -12,7 +12,12 @@ You can play slide puzzle with the image you want, bgm and game size
 
 ## To-Do
 
-* Image Dependence.. => Some images are not right size 
+* Image Dependence.. <br>
+  => Some images are not right size <br>
+  => Solved by setting image size 1600x1200(still need to search more)
+  
+  * gonna change user can change images what they want 
+  <br>
 
 * add game size buttons
 
