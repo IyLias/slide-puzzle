@@ -5,8 +5,8 @@ const IMAGE_WIDTH = SCREEN_WIDTH;
 const IMAGE_HEIGHT = SCREEN_HEIGHT;
 
 
-const slice_w = 5;
-const slice_h = 5;
+const slice_w = 3;
+const slice_h = 3;
 let w,h;
 
 let board=[];
@@ -30,10 +30,10 @@ let gravity;
 
 function preload(){
      
-  spritesheet = loadImage("f32.png");
-  puzzle_source = loadImage("Taliyah.jpg"); 
+  spritesheet = loadImage("image/f32.png");
+  puzzle_source = loadImage("image/Taliyah_1600x1200.jpg"); 
    
-  pageBGM = loadSound('jingle-bells-orchestra.mp3');
+  pageBGM = loadSound('we-wish-you-a-merry-christmas.mp3');
      
 }
 
@@ -56,7 +56,7 @@ function setup(){
     for(let i=0;i<slice_w;i++)
         for(let j=0;j<slice_h;j++){
             let x = (i+1)*w;
-            let y = (j-1)*h;
+            let y = (j)*h;
             let img = createImage(w,h);
             img.copy(puzzle_source,x,y,w,h,0,0,w,h);
 
