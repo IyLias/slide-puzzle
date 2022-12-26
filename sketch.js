@@ -19,6 +19,8 @@ let solvedFlag = false;
 
 let puzzle_source;
 let pageBGM;
+let audioContext;
+
 let spritesheet;
 
 
@@ -34,7 +36,7 @@ function preload(){
   puzzle_source = loadImage("image/Taliyah_1600x1200.jpg"); 
    
   pageBGM = loadSound('we-wish-you-a-merry-christmas.mp3');
-     
+  audioContext = new AudioContext();
 }
 
 
@@ -46,8 +48,10 @@ function setup(){
     background(200);
 
     // music loop forever..
-    if(!pageBGM.isPlaying())
+    if(!pageBGM.isPlaying()){
+        audioContext.resume();
         pageBGM.loop();
+    }
         
     // set up slide puzzle part
 
