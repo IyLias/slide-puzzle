@@ -5,8 +5,8 @@ const IMAGE_WIDTH = SCREEN_WIDTH;
 const IMAGE_HEIGHT = SCREEN_HEIGHT;
 
 
-const slice_w = 4;
-const slice_h = 4;
+const slice_w = 5;
+const slice_h = 5;
 let w,h;
 
 let board=[];
