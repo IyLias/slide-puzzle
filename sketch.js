@@ -5,8 +5,8 @@ const IMAGE_WIDTH = SCREEN_WIDTH;
 const IMAGE_HEIGHT = SCREEN_HEIGHT;
 
 
-const slice_w = 3;
-const slice_h = 3;
+const slice_w = 4;
+const slice_h = 4;
 let w,h;
 
 let board=[];
@@ -46,7 +46,7 @@ function setup(){
     background(200);
 
     // music loop forever..
-    //pageBGM.loop();
+    pageBGM.loop();
 
     // set up slide puzzle part
 
