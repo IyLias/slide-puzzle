@@ -7,6 +7,8 @@ sliding puzzle with customized image, bgm and game size
 
 You can play slide puzzle with the image you want, bgm and game size
 
+![image](https://user-images.githubusercontent.com/48081162/209511719-3d0ac6ab-1630-4bec-b548-f7a8676918aa.png)
+
 
 <br>
 
