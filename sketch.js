@@ -46,8 +46,9 @@ function setup(){
     background(200);
 
     // music loop forever..
-    pageBGM.loop();
-
+    if(!pageBGM.isPlaying())
+        pageBGM.loop();
+        
     // set up slide puzzle part
 
     w = IMAGE_WIDTH / slice_w;
