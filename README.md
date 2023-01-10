@@ -1,6 +1,9 @@
 # slide-puzzle
 sliding puzzle with customized image, bgm and game size 
 
+You can play at here 
+https://inquisitive-eclair-c110ee.netlify.app/
+
 <br>
 
 ## What's this game?
